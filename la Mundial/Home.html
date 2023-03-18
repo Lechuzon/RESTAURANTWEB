@@ -3,18 +3,12 @@
 <head>
 <title>Picanteria La Mundial - Home </title>
 <link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/Estilos.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/responsivep.css" rel="stylesheet">
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/swiper.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/parallax.min.js"></script>
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
@@ -25,18 +19,18 @@
 				<div class="auto-container">
 					<div class="inner clearfix">
 						<div class="top-left clearfix">
-							<ul class="top-info clearfix">
-								<li><i class="icon"></i> text 1</li>
-								<li><i class="icon"></i> text 2</li>
+							<ul class="top-info clearfix info-inicio">
+								<li><i class="icon"></i> Lucas Poblete 201, 211 y 213, Cercado - Arequipa</li>
+								<li><i class="icon"></i> Horario: De 11:30 am a 5:30 pm.</li>
 							</ul>
 						</div>
 						<div class="top-right clearfix">
 							<div class="top-info clearfix">
-								<span>Delivery:</span><a href="tel:+983535590">983535590</a>
-								<a href="#"><i class="icon"><img  src="images/RECURSOS/Recurso6.png" alt="" title="" style="height:21px;"></i></a>
-								<a href="#"><i class="icon"><img  src="images/RECURSOS/Recurso7.png" alt="" title="" style="height:21px;"></i></a>
-								<a href="#"><i class="icon"><img  src="images/RECURSOS/Recurso8.png" alt="" title="" style="height:21px;"></i></a>
-								<a href="#"><i class="icon"><img  src="images/RECURSOS/Recurso9.png" alt="" title="" style="height:21px;"></i></a>
+								<span class="info-inicio">Delivery:</span><a href="tel:+983535590">983535590</a>
+								<a href="https://www.facebook.com/Picanteria.Mundial"><i class="icon"><img  src="images/RECURSOS/Recurso6.png" alt="" title="" style="height:21px;"></i></a>
+								<a href="https://www.instagram.com/picanterialamundial/"><i class="icon"><img  src="images/RECURSOS/Recurso7.png" alt="" title="" style="height:21px;"></i></a>
+								<a href="https://www.tripadvisor.com.pe/Restaurant_Review-g294313-d8105447-Reviews-Picanteria_la_Mundial-Arequipa_Arequipa_Region.html"><i class="icon"><img  src="images/RECURSOS/Recurso8.png" alt="" title="" style="height:21px;"></i></a>
+								<a href="https://www.tiktok.com/@lamundialpicanteria"><i class="icon"><img  src="images/RECURSOS/Recurso9.png" alt="" title="" style="height:21px;"></i></a>
 							</div>
 						</div>
 					</div>
@@ -45,19 +39,32 @@
 			<div class="header-upper">        
 				<div class="auto-container">
 					<div class="main-box d-flex justify-content-between align-items-center flex-wrap">
-						<div>
-						</div>
+						<div class="links-box clearfix">
+						<!-- Hidden Nav Toggler -->
+                        <div class="nav-toggler">
+                            <button class="hidden-bar-opener">
+                                <span class="hamburger">
+                                    <span class="top-bun"></span>
+                                    <span class="meat"></span>
+                                    <span class="bottom-bun"></span>
+                                </span>
+                            </button>
+                        </div>
+					</div>
 						<!--Logo-->
-						<div class="logo-box">
-							<div class="logo" ><a href="#" title=""><img src="images/RECURSOS/LOGO.png" alt="" title="" style="height:50px;"></a>
+						<div class="logo-box" >
+							<div class="logo" ><a href="#" title=""><img class="img-logo logo-dy" src="images/RECURSOS/LOGO.png" alt="" title="" ></a>
 							</div>
 						</div>
+						
+                        
+						
 						<!--Link boton-->
 						<div class="link link-btn">
-							<a href="" class="theme-btn btn-style-one clearfix">
+							<a href="https://bit.ly/pedidos-lamundial" class="theme-btn btn-style-one clearfix">
 								<span class="btn-wrap">
-									<span class="text-one">boton 1</span>
-									<span class="text-two">boton 2</span>
+									<span class="text-one">Realiza tus pedidos</span>
+									<span class="text-two">Realiza tus pedidos</span>
 								</span>
 							</a>
 						</div>
@@ -65,8 +72,41 @@
 				</div>
 			</div>
 		</header>
+		
+		  <!-- Hidden Navigation Bar -->
+    <section class="hidden-bar hidden-bar-menu">
+        <!-- Hidden Bar Wrapper -->
+        <div class="inner-box inner-box-menu">
+            <div class="cross-icon hidden-bar-closer"><span class="far fa-close"></span></div>
+            <div class="logo-box"><a href="#" title=""><img src="images/RECURSOS/LOGO.png" alt="" title=""></a></div>
+            
+            <!-- .Side-menu -->
+            <div class="side-menu">
+                 <ul class="navigation clearfix">
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">NOSOTROS</a> </li>
+                    <li><a href="#">NUESTRA CARTA</a></li>
+                    <li><a href="#">CONTÁCTANOS</a></li>
+                </ul>
+            </div><!-- /.Side-menu -->
+            
+            <h2 class="color-text-menu">VISÍTANOS</h2>
+            <ul class="info info-menu">
+                <li>Lucas Poblete 208, 211 y 213<br>Cercado - Arequipa</li>
+                <li>Horario: De 10:30 am a 5:00 pm</li>
+                <li><a href="mailto:info@picanteríalamundial.com.pe">info@picanteríalamundial.com.pe</a></li>
+            </ul>
+            <div class="separator"><span></span></div>
+            <div class="booking-info">
+                <div class="color-text-menu bk-title">DELIVERY</div>
+                <div class="bk-no"><a href="tel:+983535590">+983535590</a></div>
+            </div>
+        
+        </div><!-- / Hidden Bar Wrapper -->
+    </section>
+    <!-- / Hidden Bar -->
 		<!--seccion 1 -->
-		<div class="inner-banner" style="height: 100vh;">
+		<div class="inner-banner bd-image" style="height: 100vh;">
 			<div class="image-layer" style="background-image: url(images/FONDOS/FONDO1.png); opacity: 100;"></div>
 			<div class="overlay" style="background:none;">
 			</div>
@@ -74,14 +114,15 @@
 				<div class="content-box">
 					<div class="content">
 						<div class="inner">
-							<h1><span>Ttiulo <br></span></h1>
-							<div class="text">subtitulo 1</div>
+							<!-- <h1><span>Ttiulo <br></span></h1> -->
+							<div class="image"><a href="#"><img src="images/RECURSOS/STICKER1.png" alt=""></a></div>
+							<div class="subtitulo-inicio texto">Compartiendo nuestra tradición arequipeña desde hace 98 años. </div>
 							<div class="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<div class="link">
-									<a href="#" class="theme-btn btn-style-two clearfix">
+									<a href="#" class="theme-btn btn-style-two clearfix boton-carta">
 										<span class="btn-wrap">
-											<span class="text-one">boton 2</span>
-											<span class="text-two">boton 2</span>
+											<span class="text-one">NUESTRA CARTA</span>
+											<span class="text-two">NUESTRA CARTA</span>
 										</span>
 									</a>
 								</div>
@@ -92,49 +133,50 @@
 			</div>
 		</div>
 		<!--seccion 2 -->
-		<section class="special-offer">
+		<section class="special-offer" style="padding:0;">
 			<div class="inner-banner">
-				<div class="image-layer" style="background-image: url(images/FONDOS/FONDO2.png); opacity: 100;"></div>
-				<div class="auto-container">
+				 <div class="image-layer" style="background-image: url(images/FONDOS/FONDO2.png); opacity: 100;"></div> 
+				<div class="auto-container" style="max-width:1700px !important">
 					<div class="title-box centered">
 						<!--recurso 1 -->
 						<div class="pattern-image"><img src="images/RECURSOS/Recurso1.png" alt="" title=""></div>
-						<h2>titulo 2</h2>
+						<h2 class="titulo-platos-mofita">Platos Tradicionales</h2>
+						<div class="platos-text-light text">El sabor y la sazón de nuestra Ciudad Blanca en cada uno de nuestros platos con la receta de antaño de Picantería La Mundial.</div>
 					</div>
-					<div class="dish-gallery-slider">
+					<div class="dish-gallery-slider dis-flex" style="display:flex;">
 						<!--Item 1-->
-						<div class="offer-block-two">
+						<div class="offer-block-two item-flex" style="margin-right:45px;">
 							<div class="inner-box">
-								<div class="image"><a href="#"><img src="images/IMAGENES/IMG1.png" alt=""></a></div><!--Imagen 1-->
-								<h4><a href="#">subtitulo 3</a></h4>
-								<div class="text desc">texto 4</div>
+								<div class="image"><a href="#"><img  src="images/IMAGENES/IMG_1.png" alt=""></a></div><!--Imagen 1-->
+								<h4 class="platos-text-light-items"><a href="#">SOLTERO DE QUESO</a></h4>
+								<div class="platos-text-light-items text ">Entradas Arequipeñas</div>
 							</div>
 						</div>
 
 						<!--Item 2-->
-						<div class="offer-block-two margin-top">
+						<div class="offer-block-two margin-top item-flex" style="margin-right:45px;">
 							<div class="inner-box">
-								<div class="image"><a href="#"><img src="images/IMAGENES/IMG2.png" alt=""></a></div><!--Imagen 2-->
-								<h4><a href="#">subtitulo 4</a></h4>
-								<div class="text desc">texto 5</div>
+								<div class="image"><a href="#"><img  src="images/IMAGENES/IMG_2.png" alt=""></a></div><!--Imagen 2-->
+								<h4 class="platos-text-light-items"><a href="#">CHUPE DE CAMARÓN</a></h4>
+								<div class="platos-text-light-items text ">Chupes tradicionales</div>
 							</div>
 						</div>
 
 						<!--Item 3-->
-						<div class="offer-block-two">
+						<div class="offer-block-two item-flex" style="margin-right:45px;">
 							<div class="inner-box">
-								<div class="image"><a href="#"><img src="images/IMAGENES/IMG3.png" alt=""></a></div><!--Imagen 3-->
-								<h4><a href="#">subtitulo 6</a></h4>
-								<div class="text desc">texto 6</div>
+								<div class="image"><a href="#"><img  src="images/IMAGENES/IMG_3.png" alt=""></a></div><!--Imagen 3-->
+								<h4 class="platos-text-light-items"><a href="#">AMERICANO ESPECIAL</a></h4>
+								<div class="platos-text-light-items text ">Extras Mundialistas</div>
 							</div>
 						</div>
 
 						<!--Item 4-->
-						<div class="offer-block-two margin-top"> 
+						<div class="offer-block-two margin-top item-flex" style="margin-right:45px;"> 
 							<div class="inner-box">
-								<div class="image"><a href="#"><img src="images/IMAGENES/IMG4.png" alt=""></a></div><!--Imagen 4-->
-								<h4><a href="#">subtitulo 6</a></h4>
-								<div class="text desc">texto 7</div>
+								<div class="image"><a href="#"><img  src="images/IMAGENES/IMG_4.png" alt=""></a></div><!--Imagen 4-->
+								<h4 class="platos-text-light-items"><a href="#">CHICHA DE GÜIÑAPO</a></h4>
+								<div class="platos-text-light-items text ">Bebidas</div>
 							</div>
 						</div>
 
@@ -143,10 +185,10 @@
 					</div>
 					
 					<div class="lower-link-box text-center">
-						<a href="" class="theme-btn btn-style-two clearfix">
+						<a href="" class="theme-btn btn-style-two clearfix boton-carta-platos">
 							<span class="btn-wrap">
-								<span class="text-one">boton 3</span>
-								<span class="text-two">boton 3</span>
+								<span class="text-one">NUESTRA CARTA</span>
+								<span class="text-two">NUESTRA CARTA</span>
 							</span>
 						</a>
 					</div>
@@ -155,50 +197,65 @@
 			</div>
 		</section>
 		<!--seccion 3 -->
-		 <section class="story-section">
-		 <div class="inner-banner">
-			<div class="image-layer" style="background-image: url(images/FONDOS/FONDO3.png); opacity: 100;"></div>
-			<div class="auto-container">
-			</div>
-				<div class="row clearfix">
-					<!--Columna 1-->
-					<div class="text-col col-xl-5 col-lg-5 col-md-12 col-sm-12">
-						<div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-							<div>
-								<div><span>texto 8</span></div>
-								<div><img src="" alt="" title=""></div>
-								<h2>titulo 3</h2>
-								<div>texto 9</div>
-							</div>
-							<div class="booking-info">
-								<div class="link-box">
-									<a href="" class="theme-btn btn-style-two clearfix">
-										<span class="btn-wrap">
-											<span class="text-one">boton 4</span>
-											<span class="text-two">boton 4</span>
-										</span>
-									</a>
+		 <section class="story-section" style="padding:0;">
+			<div class="inner-banner">
+				<div class="image-layer" style="background-image: url(images/FONDOS/FONDO3.png); opacity: 100;"></div>
+				<div class="auto-container story-space" style="max-width:1500px !important">
+				
+					<div class="row clearfix">
+						<!--Columna 1-->
+						<div class="text-col col-xl-5 col-lg-5 col-md-12 col-sm-12">
+							<div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+								<div>
+									<div class="story-text-light" style="color:#d39a61";><span>NUESTRA HISTORIA</span></div>
+									<div class="title-box centered">
+										<!--recurso 2 -->
+										<div class="pattern-image"><img src="images/RECURSOS/Recurso2.png" alt="" title=""></div>
+									</div>
+									<h2 class="story-text-titulo">La Mundial desde 1925</h2>
+									<div class="story-text-light">Picantería tradicional arequipeña, cocina ancestral
+										la de antes y la de hoy. Homenajeamos la tradición y
+										cultura de AREQUIPA, con la misma ilusión de
+										nuestras abuelas…
+										Nuestra cocina es REGIONAL, a veces a fuego lento,
+										otras alborotado. Un viaje de pura tradición, con
+										el sabor de SIEMPRE.
+										</div>
 								</div>
-								
+								<div class="title-box centered">
+										<!--recurso 2 -->
+										<div class="pattern-image"><img src="images/RECURSOS/Recurso4.png" alt="" title=""></div>
+									</div>
+								<div class="booking-info">
+									<div class="link-box">
+										<a href="" class="theme-btn btn-style-two clearfix boton-carta-story">
+											<span class="btn-wrap">
+												<span class="text-one">CONÓCENOS</span>
+												<span class="text-two">CONÓCENOS</span>
+											</span>
+										</a>
+									</div>
+									
+								</div>
 							</div>
 						</div>
-					</div>
-					<!--Columna 2-->
-					<div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
-						<div lass="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-							<div class="round-stamp"><img src="images/RECURSOS/STICKER2.png" alt=""></div><!--sticker 2-->
-							<div class="images parallax-scene-1">
-								<div class="image" data-depth="0.15"><img src="images/IMAGENES/IMG5.png" alt=""></div><!--Imagen 5-->
-								<div class="image" data-depth="0.30"><img src="images/IMAGENES/IMG6.png" alt=""></div><!--Imagen 6-->
+						<!--Columna 2-->
+						<div class="image-col col-xl-7 col-lg-7 col-md-12 col-sm-12">
+							<div lass="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+								<div class="stikcer-inicio"><img src="images/RECURSOS/STICKER_2.png" alt=""></div><!--sticker 2 -->
+								<div class="images parallax-scene-1">
+									<div class="image" data-depth="0.15"><img  src="images/IMAGENES/IMG_5.png" alt=""></div><!--Imagen 5-->
+									<div class="image" data-depth="0.30"><img src="images/IMAGENES/IMG_6.png" alt=""></div><!--Imagen 6 -->
+								</div>
 							</div>
 						</div>
-					</div>
 
+					</div>
 				</div>
 			</div>
 		</section>
 		<!--seccion 4 -->
-		 <section class="testimonials-section">
+		 <section class="testimonials-section" style="padding:0;">
 		  <div class="inner-banner">
 			<div class="image-layer" style="background-image: url(images/FONDOS/FONDO4.png); opacity: 100;"></div>
 			<div class="auto-container">
@@ -206,20 +263,20 @@
 					<div class="testi-top owl-theme owl-carousel">
 						<div class="slide-item">
 							<div class="slide-content">
-								<div class="quotes">”</div>
-								<div class="text quote-text">texto 10</div>
+								<div class="image"><img class="testimonio-item-img" src="images/RECURSOS/Recurso5.png" alt=""></div>
+								<div class="text quote-text testimonio-text">La comida muy rica y abundante, precios accesibles… Recomendado para los que deseen probar comida  típica de Arequipa.</div>
 							</div>
 						</div>
 						<div class="slide-item">
 							<div class="slide-content">
-								<div class="quotes">”</div>
-								<div class="text quote-text">texto 11</div>
+								<div class="image"><img class="testimonio-item-img" src="images/RECURSOS/Recurso5.png" alt=""></div>
+								<div class="text quote-text testimonio-text">Su comida es típica arequipeña el sabor el sazón y su chicha insuperable es la mejor comida de Arequipa</div>
 							</div>
 						</div>
 						<div class="slide-item">
 							<div class="slide-content">
-								<div class="quotes">”</div>
-								<div class="text quote-text">texto 12</div>
+								<div class="image"><img class="testimonio-item-img" src="images/RECURSOS/Recurso5.png" alt=""></div>
+								<div class="text quote-text testimonio-text">El caldo de lomos es realmente espectacular, regresaremos con mi familia definitivamente.</div>
 							</div>
 						</div>
 					</div>
@@ -232,22 +289,22 @@
 		</div>
 		</section>
 		<!--Footer-->
-		<footer class="main-footer">
-			<div class="upper-section">
+		<footer class="main-footer" style="padding:0;">
+			<div class="upper-section footer-color" style="margin:0; ">
 				<div class="auto-container">
 					<div class="row clearfix">
 						<!--Columna 2-->
 						<div class="footer-col info-col col-lg-6 col-md-12 col-sm-12">
 							<div class="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="content">
-									<div class="logo"><a href="#" title=""><img src="" alt="" title=""></a></div><!--logo-->
+								<div class="content" style="max-width:300px;">
+									<div class="logo"><a href="#" title=""><img src="images/RECURSOS/LOGO.png" alt="" title=""></a></div><!--logo-->
 									<div class="info">
 										<ul>
-											<li>texto 13</li>
-											<li>texto 13</li>
-											<li>texto 13</li>
-											<li>texto 13</li>
-											<li>texto 13</li>
+											<li>Lucas Poblete 208, 211 y 213</li>
+											<li>Cercado - Arequipa</li>
+											<li>info@picanteríalamundial.com.pe</li>
+											<li>Reservas: 983535590</li>
+											<li>Horario: De 10:30 am a 5:00 pm</li>
 										</ul>
 									</div>
 									<!--recurso 2 -->
@@ -256,20 +313,20 @@
 										<div class="pattern-image"><img src="images/RECURSOS/Recurso2.png" alt="" title=""></div>
 									</div>
 									<div>
-										<h3>titulo 4</h3>
-										<div>texto 14</div>
+										<h3 class="titulo-mofita">Realiza tus pedidos.</h3>
+										<div class="info-numero">983535590</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<!--Columna 1-->
-						<div class="footer-col links-col col-lg-3 col-md-6 col-sm-12">
+						<div class="footer-col links-col  col-lg-3 col-md-6 col-sm-12">
 							<div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<ul class="links">
-									<li><a href="">bton 5</a></li>
-									<li><a href="">boton 6</a></li>
-									<li><a href="">boton 7</a></li>
-									<li><a href="">boton 8</a></li>
+									<li><a href="#">INICIO</a></li>
+									<li><a href="#">CARTA</a></li>
+									<li><a href="#">NOSOTROS</a></li>
+									<li><a href="#">CONTACTO</a></li>
 								</ul>
 							</div>
 						</div>
@@ -277,10 +334,10 @@
 						<div class="footer-col links-col last col-lg-3 col-md-6 col-sm-12">
 							<div class="inner wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<ul class="links">
-									<li><a href="#">facebook</a></li>
-									<li><a href="#">instagram</a></li>
-									<li><a href="#">Twitter</a></li>
-									<li><a href="#">Youtube</a></li>
+									<li><a href="https://www.facebook.com/Picanteria.Mundial">FACEBOOK</a></li>
+									<li><a href="https://www.instagram.com/picanterialamundial/">INSTAGRAM</a></li>
+									<li><a href="https://www.tripadvisor.com.pe/Restaurant_Review-g294313-d8105447-Reviews-Picanteria_la_Mundial-Arequipa_Arequipa_Region.html">TRIP ADVISOR</a></li>
+									<li><a href="https://www.tiktok.com/@lamundialpicanteria">TIK TOK</a></li>
 								</ul>
 							</div>
 						</div>
@@ -292,6 +349,17 @@
 	</div>
 	<!--regresar inicio-->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>
-</body>
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/parallax.min.js"></script>
 <script src="js/custom-script.js"></script>
+</body>
+
 </html>

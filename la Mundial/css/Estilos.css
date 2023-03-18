@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Neuton Bold";
+  src: url("../TIPOGRAFIAS/Neuton-Bold.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton Regular";
+  src: url("../TIPOGRAFIAS/NeutonCursive-Regular.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton Extrabold";
+  src: url("../TIPOGRAFIAS/Neuton-Extrabold.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton Extralight";
+  src: url("../TIPOGRAFIAS/Neuton-Extralight.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "NeutonExtralightItalic";
+  font-display: block;
+  src: url("../TIPOGRAFIAS/Neuton-ExtralightItalic.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton Italic";
+  src: url("../TIPOGRAFIAS/Neuton-Italic.ttf") format("truetype"); }
+  
+    @font-face {
+  font-family: "Neuton Light";
+  src: url("../TIPOGRAFIAS/Neuton-Light.ttf") format("truetype"); }
+  
+    @font-face {
+  font-family: "Neuton Regular";
+  src: url("../TIPOGRAFIAS/Neuton-Regular.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton SC Bold";
+  src: url("../TIPOGRAFIAS/Neuton-SC-Bold.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton SC Extrabold";
+  src: url("../TIPOGRAFIAS/Neuton-SC-Extrabold.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton SC Extralight";
+  src: url("../TIPOGRAFIAS/Neuton-SC-Extralight.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton SC Light";
+  src: url("../TIPOGRAFIAS/Neuton-SC-Light.ttf") format("truetype"); }
+  
+  @font-face {
+  font-family: "Neuton SC Regular";
+  src: url("../TIPOGRAFIAS/Neuton-SC-Regular.ttf") format("truetype"); }
+
+  @font-face {
+  font-family: "Mofita";
+    font-display: block;
+  src: url("../TIPOGRAFIAS/Mofita.otf") format("opentype"); }
+
+
+.story-section .image-col .stikcer-inicio {
+    position: absolute;
+    right: -60px;
+    top: -65px;
+    z-index: 3;
+}
+
+.story-space {
+	margin-left:4.5rem !important;
+	margin-right:4.5rem !important;
+}
+
+.logo-dy {
+	height:120px !important;
+}
+
+.logo-nm {
+	height:50px !important;
+}
+
+body{
+	/* font-family: NeutonExtralightItalic !important */
+}
+
+.testimonio-text {
+	color: #481b0e !important;
+	font-family: Neuton Regular !important;
+}
+
+.testimonio-item-img {
+	max-width:100px !important; 
+	display:inline-block !important;
+}
+
+.texto {
+    position: relative !important;
+    display: block !important;
+    font-size: var(--font-20);
+    margin-top: var(--margin-top-10);
+    -webkit-transform: translateY(30px) !important;
+    -ms-transform: translateY(30px) !important;
+    transform: translateY(30px) !important;
+}
+
+
+.bd-image .links-box {
+    position: relative;
+    display: block;
+    padding-top: var(--padding-top-40);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+}
+
+.footer-color {
+	background:#622910;
+}
+
+
+.main-footer .info-col .inner {
+    background: #481a0f !important;
+}
+
+.main-footer .links-col ul li a {
+	font-family: Neuton Regular !important;
+	color: #fff !important;
+}
+
+.main-footer .info-col .info li {
+	font-family: Neuton Light !important;
+	color: #fff !important;
+}
+
+.titulo-mofita {
+	font-family: Mofita !important;
+	font-size: 30px;
+}
+
+.info-numero{
+	font-family: Neuton Light !important;
+}
+
+.story-text-light{
+	font-family: Neuton Light !important;
+	font-size: 30px;
+}
+
+.story-text-titulo{
+	font-family: Mofita !important;
+	font-size: 100px;
+}
+
+.titulo-platos-mofita {
+	font-family: Mofita !important;
+	font-size: 70px;
+	color: #7f1111;
+}
+
+
+.platos-text-light{
+	font-family: Neuton Light !important;
+	font-size: 45px;
+	color: #481b0e;
+}
+
+.title-box.centered .text {
+    max-width: 1200px !important;
+}
+
+.platos-text-light-items{
+	font-family: Neuton Light !important;
+	font-size: 35px;
+	color: #fff;
+}
+
+.subtitulo-inicio {
+	font-family: Neuton Light !important;
+	font-size: 30px;
+	color: #fff;
+}
+
+.info-inicio{
+	font-family: Neuton Light !important;
+	color: #fff;
+}
+
+.hidden-bar-menu{
+	background:#76151c !important;
+}
+
+.inner-box-menu{
+	background:#76151c !important;
+	font-family: Neuton Light !important;
+}
+
+.info-menu li {
+	color: #fff !important;
+}
+
+
+.color-text-menu{
+	color: #d39a61 !important;
+	font-size: 50px;
+}
+
+.fixed-header .header-upper{
+	background:#76151c !important;
+}
+
+.btn-wrap{
+	font-family: Neuton Regular !important;
+	font-size: 15px;
+}
+
+.btn-style-one:before {
+	background: #6c2c0d !important
+}
+
+.btn-style-one {
+	color: #6c2c0d !important;
+	background: #d39a61 !important;
+	border: 2px solid #d39a61 !important;
+}
+
+
+.boton-carta {
+	color: #6c2c0d !important;
+	border: 2px solid #d39a61 !important;
+}
+
+.boton-carta .btn-wrap .text-one{
+		color: #fff !important;
+}
+
+
+.boton-carta .btn-wrap .text-two{
+		color: #fff !important;
+}
+
+
+.boton-carta:before {
+	background: #d39a61 !important;
+}
+
+
+.boton-carta-platos .btn-wrap .text-one{
+	color: #6c2c0d !important;
+}
+
+.boton-carta-platos .btn-wrap .text-two{
+	color: #fff !important;
+}
+
+.boton-carta-platos {
+	
+	border: 2px solid #481b0e !important;
+}
+
+
+.boton-carta-platos:before {
+	background: #481b0e !important;
+	
+}
+
+
+
+
+.boton-carta-story .btn-wrap .text-one{
+	color: #fff !important;
+}
+
+.boton-carta-story .btn-wrap .text-two{
+	color: #fff !important;
+}
+
+.boton-carta-story {
+	
+	border: 2px solid #d39a61 !important;
+}
+
+
+.boton-carta-story:before {
+	background: #d39a61 !important;
+	
+}
+
+

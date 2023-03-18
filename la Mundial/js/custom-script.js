@@ -65,12 +65,17 @@ if($('.main-header').length){
 		if($('.main-header').length){
 			var windowpos = $(window).scrollTop();
 			var siteHeader = $('.main-header');
+			var logoimg = $('.img-logo');
 			var scrollLink = $('.scroll-to-top');
 			if (windowpos >= 1) {
 				siteHeader.addClass('fixed-header');
+				logoimg.removeClass('logo-dy');
+				logoimg.addClass('logo-nm');
 				scrollLink.fadeIn(300);
 			} else {
 				siteHeader.removeClass('fixed-header');
+				logoimg.removeClass('logo-nm');
+				logoimg.addClass('logo-dy');
 				scrollLink.fadeOut(300);
 			}
 		}

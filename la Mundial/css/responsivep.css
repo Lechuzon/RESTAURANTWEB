@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1199px)
+{
+	.inner-banner  {
+		padding-top: 200px !important;
+		padding-bottom: 200px !important;
+	}
+}
+
+@media only screen and (max-width: 991px)
+{
+	.special-offer  {
+		margin-bottom: 0px !important;
+	}
+	
+	.dis-flex  {
+		flex-flow: wrap;
+	}
+	.item-flex {
+		width: 40% !important;
+	}
+}
