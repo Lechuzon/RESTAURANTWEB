@@ -30,6 +30,10 @@
 ====================================================================
 
 ***/
+@font-face {
+  font-family:mofita;
+  src: url(assets/FontsFree-Net-Mofita.ttf);
+}
 
 .main-header{
   position: fixed;
@@ -156,11 +160,22 @@
 .fixed-header .header-upper{
   position: relative;
   /*top: 0;*/
-  background: #202020;
+  /* background: #202020; */
+  background: #6e2f2fad;
   border-bottom-color: rgba(0,0,0,0.15);
 }
 
 .header-two.fixed-header .header-upper{
+  /* position: relative;
+  display: block;
+  padding: 40px 0px;
+  margin-left:140px;
+  width: 298px;
+  height:auto;
+  transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease; */
   background: #ffffff;
 }
 
@@ -212,8 +227,10 @@
 .main-header .main-box .logo-box .logo img{
   position: relative;
   display: block;
-  height: 50px;
+  /* height: 50px; */
+  height: 104px;
   z-index: 1;
+  margin-left:50px;
 }
 
 .main-header .nav-box{
@@ -1834,11 +1851,14 @@ video {
   position: relative;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--main-color);
-  font-size: var(--font-12);
+  /* color: var(--main-color); */
+  color: #d39a61;
+  /* font-size: var(--font-12); */
+  font-size: 50pt;
   letter-spacing: 0.40em;
   line-height: 1em;
   margin-bottom: var(--margin-bottom-10);
+  font-family: 'Neuton Light', serif;
 }
 
 .title-box .pattern-image{
@@ -1862,12 +1882,20 @@ video {
 .title-box h3{
   position: relative;
   margin-bottom: 0;
+  font-family: 'Neuton Regular', serif;
+  font-size: 30pt;
 }
 
 .title-box .text{
-  position: relative;
+  /* position: relative;
   padding-top: var(--padding-top-15);
-  line-height: 1.85em;
+  line-height: 1.85em; */
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.40;
+  opacity: 0.80;
 }
 
 .title-box.centered .text{
@@ -4407,6 +4435,8 @@ video {
 .inner-banner .pattern-image{
   width:100px;
   margin:0 auto;
+  font-size: 20px;
+  font-family: 'Neuton Regular', serif;
 }
 
 .inner-banner .inner{
@@ -4432,10 +4462,13 @@ video {
 .inner-banner .inner h1{
   position: relative;
   font-weight:400;
-  font-size: var(--font-80);
+  /* font-size: var(--font-80); */
+  font-size: 110pt;
   text-transform: none;
   line-height:1.0em;
   margin:0px 0px;
+  font-family: mofita;
+  margin-top:15px;
 }
 
 .inner-banner .inner h1 span{
@@ -4460,16 +4493,21 @@ video {
 }
 
 .about-section .left-bg{
-  position: absolute;
+  position: absolute !important;
   left: 0;
-  top: 40%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.about-section .right-bg{
+/* .about-section .right-bg{
   position: absolute;
   right: 0;
   top: 100px;
-}
+} */
 
 .about-section .title-box{
   max-width: 920px;
@@ -4513,14 +4551,18 @@ video {
 
 .about-block .text{
   position: relative;
-  font-size: var(--font-14);
-  line-height: 1.85em;
-  margin-bottom: var(--margin-bottom-30);
+  /* font-size: var(--font-14); */
+  font-size: 18pt;
+  /* line-height: 1.85em; */
+  line-height: 1.15em;
+  /* margin-bottom: var(--margin-bottom-30); */
+  font-family: 'Neuton Regular', serif;
+  padding:15px;
 }
 
-.about-block .signature{
+/* .about-block .signature{
   position: relative;
-}
+} */
 
 .about-block .author{
   position: relative;
@@ -4640,9 +4682,12 @@ video {
 
 .about-section .info-block .info li{
   position: relative;
-  color: var(--color-one);
+  /* color: var(--color-one); */
+  color: #ffffff;
   line-height: 1.5em;
   margin-bottom: var(--margin-bottom-25);
+  font-family: 'Neuton Regular', serif;
+  font-size:18pt;
 }
 
 .about-section .info-block .info li:last-child{
@@ -4652,7 +4697,8 @@ video {
 .about-section .info-block .info li strong{
   position: relative;
   display: block;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: #d39a61;
   margin-bottom: var(--margin-bottom-5);
 }
 
@@ -4734,7 +4780,8 @@ video {
 
 .fluid-section{
   position: relative;
-  background: var(--color-five);
+  /* background: var(--color-five); */
+  background-image: url(../images/FONDOS/FONDO12.png)
 }
 
 .fluid-section .right-bg{
@@ -5342,7 +5389,8 @@ video {
 
 .image-gallery{
   position: relative;
-  background-color:var(--color-four);
+  /* background-color:var(--color-four); */
+  background-image: url(../images/FONDOS/FONDO13.png);
   padding-bottom: var(--padding-bottom-100);
   overflow: hidden;
 }
@@ -7323,4 +7371,16 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
   100% {
     width: 100%;
   }
+}
+
+.fluid-section .title-box .subtitle{
+  color: #481b0e;
+  font-size: 23px;
+  font-family: 'Neuton Regular', serif;
+}
+
+.fluid-section .title-box .text{
+  color: #481b0e;
+  font-size: 23px;
+  font-family: 'Neuton Regular', serif;
 }
