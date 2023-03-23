@@ -297,3 +297,210 @@ body{
 	padding: 5px 5px !important;
 }
 
+/*** 
+
+====================================================================
+STEVE
+====================================================================
+
+***/
+
+.fixed-header .header-upper{
+  position: relative;
+  /*top: 0;*/
+  /* background: #202020; */
+  background: #6e2f2fad;
+  border-bottom-color: rgba(0,0,0,0.15);
+}
+
+.header-two.fixed-header .header-upper{
+  /* position: relative;
+  display: block;
+  padding: 40px 0px;
+  margin-left:140px;
+  width: 298px;
+  height:auto;
+  transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease; */
+  background: #ffffff;
+}
+
+.main-header .main-box .logo-box .logo img{
+  position: relative;
+  display: block;
+  /* height: 50px; */
+  height: 104px;
+  z-index: 1;
+  margin-left:50px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+  /*background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+  background-size: 3px 3px;*/
+  z-index: 2;
+}
+
+.bg-video-wrap .pattern-image{
+  position: relative;
+  width:100px;
+  margin:0 auto;
+  /*margin-bottom: var(--margin-bottom-30);*/
+  -webkit-transform:translateY(30px);
+  -ms-transform:translateY(30px);
+  transform:translateY(30px);
+}
+
+.bg-video-wrap h1 {
+  /*text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  width: 100%;
+  height: 100px;*/
+}
+
+.title-box .subtitle{
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* color: var(--main-color); */
+  color: #d39a61;
+  /* font-size: var(--font-12); */
+  font-size: 50pt;
+  letter-spacing: 0.40em;
+  line-height: 1em;
+  margin-bottom: var(--margin-bottom-10);
+  font-family: 'Neuton Light', serif;
+}
+
+.title-box .text{
+  /* position: relative;
+  padding-top: var(--padding-top-15);
+  line-height: 1.85em; */
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.40;
+  opacity: 0.80;
+}
+
+.fluid-section{
+  position: relative;
+  /* background: var(--color-five); */
+  background-image: url(../images/FONDOS/FONDO12.png)
+}
+
+.image-gallery{
+  position: relative;
+  /* background-color:var(--color-four); */
+  background-image: url(../images/FONDOS/FONDO13.png);
+  padding-bottom: var(--padding-bottom-100);
+  overflow: hidden;
+}
+
+.reservation-contactform .reservation-form form button{
+  /*position: absolute;
+  right: 0;
+  top: 0;*/
+  width: 230px;
+  margin: 0 auto;
+  display: block;
+}
+
+.contactinfo-block .inner-box{
+  position: relative;
+  display: block;
+  padding-top: var(--padding-top-30);
+  padding-left: var(--padding-left-20);
+  padding-right: var(--padding-right-20);
+  padding-bottom: var(--padding-top-40);
+  text-align: center;
+  min-height: 100%;
+  /*background: var(--color-seven);*/
+}
+
+.chef-section .image-col .image:before{
+  content: '';
+  position: absolute;
+  left: -20px;
+  /*margin-left: -70px;*/
+  width: 140px;
+  top: 250px;
+  bottom: 0;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  background: url(../images/background/pattern-8.svg) center repeat;
+}
+
+.inner-banner .image-layer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.90;
+}
+
+.about-section .image-layer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.90;
+}
+
+.image-gallery .carousel-box{
+  position: relative;
+  margin-top:100px;
+  border: 5px solid transparent;
+  border-radius: none;
+  background: linear-gradient(#6c2d0d42,rgba(231, 231, 231, 0.897)) padding-box, linear-gradient(45deg, #7f1111, #d39a61) border-box;
+}
+
+.numeroDev {
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.fluid-section.alternate .content-col .content-box{
+  float: right;
+  margin-right: 100px;
+}
+
+.fluid-section .content-col .content-box{
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin-left: 100px;
+}
+
+
+
+
+

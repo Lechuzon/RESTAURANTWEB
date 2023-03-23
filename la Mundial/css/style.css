@@ -2881,7 +2881,7 @@ video {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.30;
+  opacity: 0.80;
 }
 
 .testimonials-section .carousel-box{
@@ -4429,7 +4429,7 @@ video {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.40;
+  opacity: 0.90;
 }
 
 .inner-banner .pattern-image{
@@ -4490,6 +4490,18 @@ video {
   background-color:var(--color-four);
   padding-top: var(--padding-top-100);
   padding-bottom: var(--padding-bottom-50);
+}
+
+.about-section .image-layer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.90;
 }
 
 .about-section .left-bg{
@@ -4878,10 +4890,12 @@ video {
   display: block;
   width: 100%;
   max-width: 960px;
+  margin-left: 100px;
 }
 
 .fluid-section.alternate .content-col .content-box{
   float: right;
+  margin-right: 100px;
 }
 
 .fluid-section .content-col .title-box{
@@ -5397,6 +5411,7 @@ video {
 
 .image-gallery .carousel-box{
   position: relative;
+  margin-top:100px;
 }
 
 .image-gallery .auto-container{
@@ -5473,7 +5488,7 @@ video {
   top: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--main-color);
+  border: 1px solid #7f1111;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   -webkit-transition:all 400ms ease;
@@ -5493,12 +5508,12 @@ video {
 
 .image-gallery .owl-theme .owl-nav .owl-next:hover,
 .image-gallery .owl-theme .owl-nav .owl-prev:hover{
-  color: var(--black-color);
+  color: #ffffff;
 }
 
 .image-gallery .owl-theme .owl-nav .owl-next:hover:before,
 .image-gallery .owl-theme .owl-nav .owl-prev:hover:before{
-  background: var(--main-color);
+  background: #7f1111;
 }
 
 /*** 
@@ -7377,6 +7392,7 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
   color: #481b0e;
   font-size: 23px;
   font-family: 'Neuton Regular', serif;
+
 }
 
 .fluid-section .title-box .text{
