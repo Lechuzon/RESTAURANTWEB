@@ -297,3 +297,101 @@ body{
 	padding: 5px 5px !important;
 }
 
+.menu-section .inner-banner {
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
+}
+
+.menu-section .subtitle {
+    font-size: 47px !important;
+	color: #7e0219 !important;
+	font-family: Neuton Light !important;
+}
+
+
+.menu-section .title-box .pattern-image img {
+    max-width: 170px !important;
+}
+
+.menu-section .titulo2 {
+    font-size: 125px !important;
+	color: #481b0e !important;
+	font-family: mofita !important;
+}
+
+
+.menu-section .auto-container {
+    max-width: 1700px !important;
+}
+
+
+.menu-section .tab-btn {
+    font-size: 47px !important;
+	color: #7e0219 !important;
+	font-family: Neuton Regular !important;
+}
+
+
+.menu-section .menu-tabs .buttons .tab-buttons .tab-btn:before {
+
+    border-top: none !important; 
+    border-bottom: none !important; 
+}
+
+.menu-section .menu-tabs .buttons {
+    border-top: 1px solid #7e0219 !important;
+    border-bottom: 1px solid #7e0219 !important;
+}
+
+.menu-section .menu-tabs .menu-col .inner:after {
+    border-right: 1px solid #7e0219 !important;
+}
+
+.menu-section .dish-block .title .price {
+    font-size: 47px !important;
+	color: #481b0e !important;
+	font-family: Neuton Regular !important;
+	background: none !important;
+}
+
+.menu-section .dish-block .title .ttl,
+.menu-section .dish-block .title .ttl a {
+    font-size: 47px !important;
+	color: #481b0e !important;
+	font-family: Neuton Regular !important;
+	background: none !important;
+}
+
+
+.menu-section  .menu-tabs .dish-block .title:before {
+
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.special-offer-two .inner-banner {
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
+}
+
+
+.special-offer-two .titulo2 {
+    font-size: 125px !important;
+	color: #fff !important;
+	font-family: mofita !important;
+}
+
+
+.special-offer-two .offer-block-three .price {
+    font-size: 44px !important;
+	font-family: Neuton Regular !important;
+}
+
+
+.special-offer-two .offer-block-three h4 a {
+    font-size: 47px !important;
+	font-family: Neuton Regular !important;
+}
+
+
+
