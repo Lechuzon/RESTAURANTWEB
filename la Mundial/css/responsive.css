@@ -292,12 +292,14 @@
 
 	.main-header .main-box .logo-box .logo img{
 		height: 50px;
+		;
 	}
 
 	.banner-section .slide-item h1,
 	h1,
 	.inner-banner .inner h1{
 		font-size: 54px;
+		margin-top: 140px;
 	}
 
 	h2,

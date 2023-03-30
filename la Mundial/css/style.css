@@ -2567,6 +2567,7 @@ video {
   line-height: 24px;
   margin-bottom: var(--margin-bottom-10);
   font-family:var(--font-family-Forum);
+  font-size: 35pt;
 }
 
 .menu-tabs .dish-block .title:before{
@@ -4883,6 +4884,7 @@ video {
   padding-bottom: var(--padding-bottom-230);
   padding-left: var(--padding-left-20);
   padding-right: var(--padding-right-20);
+  border:solid;
 }
 
 .fluid-section .content-col .content-box{
@@ -4891,6 +4893,7 @@ video {
   width: 100%;
   max-width: 960px;
   margin-left: 100px;
+  border:solid;
 }
 
 .fluid-section.alternate .content-col .content-box{

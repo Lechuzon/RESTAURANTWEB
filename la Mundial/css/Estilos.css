@@ -426,16 +426,15 @@ body{
 
 .menu-one .menu-col .dish-block .title .ttl a
 {
-	 font-size: 47px !important;
+	font-size: 32px !important;
 	font-family: Neuton Regular !important;
-
 	color: #481b0e !important;
 	
 }
 
 .menu-one .menu-col .dish-block .title .price  {
 	color: #481b0e !important;
-    font-size: 44px !important;
+    font-size: 32px !important;
 	font-family: Neuton Regular !important;
 	   	background: none !important;
 }
@@ -466,7 +465,7 @@ body{
 
 .menu2  .menu-col .dish-block .title .price  {
 	color: #db9556 !important;
-    font-size: 44px !important;
+    font-size: 32px !important;
 	font-family: Neuton Regular !important;
 	   	background: none !important;
 }
@@ -478,9 +477,8 @@ body{
 
 .menu2 .menu-col .dish-block .title .ttl a
 {
-	 font-size: 47px !important;
+	 font-size: 32px !important;
 	font-family: Neuton Regular !important;
-
 	color: #fff !important;
 	
 }
@@ -755,5 +753,22 @@ STEVE
   margin-left: 100px;
 }
 
+.containerprueba {
+  display: flex;
+}
 
+.imagenperso {
+  display:flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
 
+.contentperso {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  text-align: center;
+  border:solid;
+  margin-top: 180px;
+  font-family: Neuton-Regular;
+}
