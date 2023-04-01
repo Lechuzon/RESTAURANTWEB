@@ -20,6 +20,15 @@
 	}
 }
 
+@media (min-width: 1200px)
+{
+	.col-xl-25 {
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
 /* .banner-section .slide-item h1,
 h1,
 .inner-banner .inner h1{
