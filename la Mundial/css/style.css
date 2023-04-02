@@ -1853,12 +1853,11 @@ video {
   font-weight: 700;
   /* color: var(--main-color); */
   color: #d39a61;
-  /* font-size: var(--font-12); */
-  font-size: 50pt;
-  letter-spacing: 0.40em;
+  font-size: var(--font-70);
   line-height: 1em;
   margin-bottom: var(--margin-bottom-10);
   font-family: 'Neuton Light', serif;
+  text-align: center;
 }
 
 .title-box .pattern-image{
@@ -4826,14 +4825,14 @@ video {
   order: 12;
 }
 
-.fluid-section .image-col .inner{
+/* .fluid-section .image-col .inner{
   position: relative;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   min-height: 100%;
-}
+} */
 
 .fluid-section .image-col .image-layer{
   position: absolute;
@@ -4873,9 +4872,9 @@ video {
   text-align: center;
 }
 
-.fluid-section.alternate .content-col{
+/* .fluid-section.alternate .content-col{
   order: 0;
-}
+} */
 
 .fluid-section .content-col .inner{
   position: relative;
@@ -4884,22 +4883,21 @@ video {
   padding-bottom: var(--padding-bottom-230);
   padding-left: var(--padding-left-20);
   padding-right: var(--padding-right-20);
-  border:solid;
 }
 
-.fluid-section .content-col .content-box{
+/* .fluid-section .content-col .content-box{
   position: relative;
   display: block;
   width: 100%;
   max-width: 960px;
   margin-left: 100px;
   border:solid;
-}
+} */
 
-.fluid-section.alternate .content-col .content-box{
+/* .fluid-section.alternate .content-col .content-box{
   float: right;
   margin-right: 100px;
-}
+} */
 
 .fluid-section .content-col .title-box{
   margin-bottom: var(--margin-bottom-40);
@@ -7395,7 +7393,7 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
   color: #481b0e;
   font-size: 23px;
   font-family: 'Neuton Regular', serif;
-
+  
 }
 
 .fluid-section .title-box .text{
