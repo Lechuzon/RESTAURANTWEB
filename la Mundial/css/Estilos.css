@@ -64,10 +64,10 @@
     z-index: 3;
 }
 
-.story-space {
+/* .story-space {
 	margin-left:4.5rem !important;
 	margin-right:4.5rem !important;
-}
+} */
 
 .logo-dy {
 	height:120px !important;
@@ -79,6 +79,10 @@
 
 body{
 	/* font-family: NeutonExtralightItalic !important */
+}
+
+.Inicio .inner {
+    max-width: 1100px !important;
 }
 
 .testimonio-text {
@@ -123,26 +127,39 @@ body{
 .main-footer .links-col ul li a {
 	font-family: Neuton Regular !important;
 	color: #fff !important;
+	font-size: 20px !important;
+	font-weight:100 !important
 }
 
 .main-footer .info-col .info li {
 	font-family: Neuton Light !important;
 	color: #fff !important;
+	font-size: 30px ;
 }
 
-.titulo-mofita {
+.main-footer .titulo-mofita {
 	font-family: Mofita !important;
-	font-size: 30px;
+	font-size: 60px;
 }
 
-.info-numero{
-	font-family: Neuton Light !important;
-}
-
-.story-text-light{
+.main-footer .info-numero{
 	font-family: Neuton Light !important;
 	font-size: 30px;
 }
+
+.story-section .story-text-light{
+	font-family: Neuton Light !important;
+	font-size: 35px !important;
+}
+
+.story-section .title-box .pattern-image img {
+    max-width: 120px !important;
+}
+
+.story-section .title-box .pattern-image .story-section-r4 {
+    max-width: 220px !important;
+}
+
 
 .story-text-titulo{
 	font-family: Mofita !important;
@@ -151,15 +168,16 @@ body{
 
 .titulo-platos-mofita {
 	font-family: Mofita !important;
-	font-size: 70px;
+	font-size: 125px;
 	color: #7f1111;
 }
 
 
 .platos-text-light{
 	font-family: Neuton Light !important;
-	font-size: 45px;
+	font-size: 50px;
 	color: #481b0e;
+	line-height: 1em !important
 }
 
 .title-box.centered .text {
@@ -168,13 +186,14 @@ body{
 
 .platos-text-light-items{
 	font-family: Neuton Light !important;
-	font-size: 35px;
+	font-size: 45px;
 	color: #fff;
+	line-height: 1em !important;
 }
 
 .subtitulo-inicio {
 	font-family: Neuton Light !important;
-	font-size: 30px;
+	font-size: 47px;
 	color: #fff;
 }
 
@@ -184,11 +203,13 @@ body{
 }
 
 .hidden-bar-menu{
-	background:#76151c !important;
+	/* background:#76151c !important; */
+	background-image: url(../images/FONDOS/FONDO3.png) !important; 
+	opacity: 90 !important;
 }
 
 .inner-box-menu{
-	background:#76151c !important;
+	background:none !important;
 	font-family: Neuton Light !important;
 }
 
@@ -283,6 +304,10 @@ body{
 	
 }
 
+.special-offer .title-box .pattern-image img {
+    max-width: 160px !important;
+}
+
 .title-box .pattern-image img {
     max-width: 320px !important;
 }
@@ -311,6 +336,7 @@ body{
     font-size: 47px !important;
 	color: #7e0219 !important;
 	font-family: Neuton Light !important;
+	letter-spacing: 0 !important;
 }
 
 
@@ -319,7 +345,7 @@ body{
 }
 
 .menu-section .titulo2 {
-    font-size: 125px !important;
+    font-size: 125px;
 	color: #481b0e !important;
 	font-family: mofita !important;
 }
@@ -384,6 +410,10 @@ body{
     font-size: 125px !important;
 	color: #fff !important;
 	font-family: mofita !important;
+}
+
+.special-offer-two .auto-container {
+    max-width: 1400px !important;
 }
 
 
@@ -483,6 +513,21 @@ body{
 	
 }
 
+
+.menu2 .dish-block .title-box {
+    margin-bottom:0 !important;
+}
+
+.menu2 .title-box .titulo3 {
+    margin-bottom: 0 !important;
+}
+
+.chef-selection .content-col .inner {
+   padding-top: 0 !important;
+   padding-bottom: 50px !important;
+   	max-width: 750px !important;
+}
+
 .chef-selection  .nuevo {
     position: relative;
     font-size: 45px !important;
@@ -496,17 +541,25 @@ body{
     color: #fff;
 }
 
+
+
 #imagen3 {
-    max-width: 450px !important;
+    max-width: 700px !important;
 }
 
 #imagen4 {
-    max-width: 500px !important;
+    max-width: 750px !important;
 }
 
 .chef-selection .inner-banner {
     padding-top: 80px !important;
     padding-bottom: 100px !important;
+
+}
+
+.chef-selection .inner-banner .title-box .titulo3 {
+   display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -525,7 +578,7 @@ body{
 }
 
 .chef-selection .auto-container {
-    max-width: 1500px !important;
+    max-width: 1700px !important;
 }
 
 .chef-selection .title-box .pattern-image img {
@@ -541,13 +594,75 @@ body{
 	color: #db9556 !important;
     font-size: 40px !important;
 	font-family: Neuton Regular !important;
+	line-height: 1rem !important;
 }
 
 .subtitulo5 {
 	color: #db9556 !important;
     font-size: 60px !important;
 	font-family: Neuton Regular !important;
+	line-height: 0 !important;
 }
+
+.special-offer .inner-banner {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
+
+}
+
+.testimonials-section .inner-banner {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
+
+}
+
+.story-section .inner-banner {
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+
+}
+
+
+.testimonials-section .title-box .pattern-image img {
+    max-width: 200px !important;
+}
+
+
+.main-footer .title-box .pattern-image img {
+    max-width: 180px !important;
+}
+
+.main-footer .auto-container {
+    max-width: 1700px !important;
+}
+
+.hidden-bar .side-menu ul li a {
+    font-size: 20px !important;
+    letter-spacing: 0.1em !important;
+}
+
+.hidden-bar .info li {
+   font-size: 20px !important;
+}
+
+.hidden-bar .booking-info .bk-no a {
+    color: #fff !important;
+}
+
+.hidden-bar .booking-info .bk-title {
+    font-weight: 100 !important;
+}
+
+.hidden-bar .inner-box .logo-box img {
+    max-height: 70px !important;
+}
+
+.hidden-bar  .title-box .pattern-image img {
+    max-width: 100px !important;
+}
+
+
+
 
 
 /*** 

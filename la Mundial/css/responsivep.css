@@ -1,3 +1,12 @@
+@media (min-width: 1200px)
+{
+	.col-xl-25 {
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
 @media only screen and (max-width: 1199px)
 {
 	.inner-banner  {
@@ -19,6 +28,241 @@
 		width: 40% !important;
 	}
 }
+
+@media only screen and (max-width: 767px){
+	#imagen3 {
+		max-width: 550px !important;
+	}
+	#imagen4 {
+		max-width: 550px !important;
+	}
+}
+
+
+
+@media only screen and (max-width: 599px)
+{
+	.main-footer .info-col .info li {
+		font-size: 27px;
+	}
+	.titulo-platos-mofita {
+		font-size: 97px;
+	}
+	.platos-text-light {
+		font-size: 37px;
+	}
+	.platos-text-light-items {
+		font-size: 37px;
+	}
+	.subtitulo-inicio {
+		font-size: 40px;
+	}
+	.story-section .story-text-light {
+		font-size: 30px !important;
+	}
+	.main-header .main-box .logo-box {
+		margin-right: 50px;
+	}
+	.menu-section .titulo2 {
+		font-size: 97px;
+	}
+	.menu-section .subtitle {
+		font-size: 40px !important;
+	}
+	.menu-section .dish-block .title .ttl, 
+	.menu-section .dish-block .title .ttl a {
+		font-size: 35px !important;
+	}
+	.menu-section .dish-block .title .price {
+		font-size: 35px !important;
+	}
+	.special-offer-two .titulo2 {
+		font-size: 97px !important;
+	}
+	.special-offer-two .offer-block-three h4 a {
+		font-size: 40px !important;
+	}
+	.special-offer-two .offer-block-three .price {
+		font-size: 40px !important;
+	}
+	.menu-one .titulo2 {
+		font-size: 97px !important;
+	}
+	.menu-one .menu-col .dish-block .title .ttl a {
+		font-size: 27px !important;
+	}
+	.menu-one .menu-col .dish-block .title .price {
+		font-size: 27px !important;
+	}
+	.menu2 .titulo2 {
+		font-size: 97px !important;
+	}
+	.chef-selection .title-box .text {
+		font-size: 30px !important;
+	}
+	.chef-selection .nuevo {
+		font-size: 37px !important;
+	}
+	.subtitulo5 {
+		font-size: 55px !important;
+	}
+	.subtitulo4 {
+		font-size: 35px !important;
+	}
+	#imagen3 {
+		max-width: 450px !important;
+	}
+	#imagen4 {
+		max-width: 450px !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.main-footer .info-col .info li {
+		font-size: 25px;
+	}
+	.titulo-platos-mofita {
+		font-size: 95px;
+	}
+	.platos-text-light {
+		font-size: 40px;
+	}
+	.platos-text-light-items {
+		font-size: 35px;
+	}
+	.subtitulo-inicio {
+		font-size: 35px;
+	}
+	.story-section .story-text-light {
+		font-size: 25px !important;
+	}
+	.menu-section .titulo2 {
+		font-size: 95px;
+	}
+	.menu-section .subtitle {
+		font-size: 35px !important;
+	}
+	.menu-section .dish-block .title .ttl, .menu-section .dish-block .title .ttl a {
+		font-size: 30px !important;
+	}
+	.menu-section .dish-block .title .price {
+		font-size: 30px !important;
+	}
+	.special-offer-two .titulo2 {
+		font-size: 95px !important;
+	}
+	.special-offer-two .offer-block-three h4 a {
+		font-size: 35px !important;
+	}
+	.special-offer-two .offer-block-three .price {
+		font-size: 35px !important;
+	}
+	.menu-one .titulo2 {
+		font-size: 95px !important;
+	}
+	.menu-one .menu-col .dish-block .title .ttl a {
+		font-size: 22px !important;
+	}
+	.menu-one .menu-col .dish-block .title .price {
+		font-size: 22px !important;
+	}
+	.menu2 .titulo2 {
+		font-size: 95px !important;
+	}
+	.chef-selection .title-box .text {
+		font-size: 25px !important;
+	}
+	.chef-selection .nuevo {
+		font-size: 32px !important;
+	}
+	.subtitulo5 {
+		font-size: 50px !important;
+	}
+	.subtitulo4 {
+		font-size: 30px !important;
+	}
+	#imagen3 {
+		max-width: 350px !important;
+	}
+	#imagen4 {
+		max-width: 350px !important;
+	}
+}
+
+
+@media only screen and (max-width: 399px) {
+	.main-footer .info-col .info li {
+		font-size: 20px;
+	}
+	.titulo-platos-mofita {
+		font-size: 80px;
+	}
+
+	.platos-text-light {
+		font-size: 35px;
+	}
+	.platos-text-light-items {
+		font-size: 30px;
+	}
+	.subtitulo-inicio {
+		font-size: 30px;
+	}
+	.story-section .story-text-light {
+		font-size: 20px !important;
+	}
+	.menu-section .titulo2 {
+		font-size: 80px;
+	}
+	.menu-section .subtitle {
+		font-size: 30x !important;
+	}
+	.menu-section .dish-block .title .ttl, .menu-section .dish-block .title .ttl a {
+		font-size: 25px !important;
+	}
+	.menu-section .dish-block .title .price {
+		font-size: 25px !important;
+	}
+	.special-offer-two .titulo2 {
+		font-size: 80px !important;
+	}
+	.special-offer-two .offer-block-three h4 a {
+		font-size: 30px !important;
+	}
+	.special-offer-two .offer-block-three .price {
+		font-size: 30px !important;
+	}
+	.menu-one .titulo2 {
+		font-size: 80px !important;
+	}
+	.menu-one .menu-col .dish-block .title .ttl a {
+		font-size: 17px !important;
+	}
+	.menu-one .menu-col .dish-block .title .price {
+		font-size: 17px !important;
+	}
+	.menu2 .titulo2 {
+		font-size: 80px !important;
+	}
+	.chef-selection .title-box .text {
+		font-size: 20px !important;
+	}
+	.chef-selection .nuevo {
+		font-size: 27px !important;
+	}
+	.subtitulo5 {
+		font-size: 45px !important;
+	}
+	.subtitulo4 {
+		font-size: 25px !important;
+	}
+	#imagen3 {
+		max-width: 250px !important;
+	}
+	#imagen4 {
+		max-width: 250px !important;
+	}
+}
+
 
 /* .banner-section .slide-item h1,
 h1,
