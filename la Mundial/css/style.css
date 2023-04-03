@@ -230,7 +230,7 @@
   /* height: 50px; */
   height: 104px;
   z-index: 1;
-  margin-left:50px;
+  margin-left:20px;
 }
 
 .main-header .nav-box{
@@ -4157,6 +4157,7 @@ video {
 
 .main-footer .links-col{
   position: relative;
+  padding: 100px;
 }
 
 .main-footer .links-col.last{
@@ -4561,7 +4562,7 @@ video {
   width: 100%;
 }
 
-.about-block .text{
+.about-block .textabout{
   position: relative;
   /* font-size: var(--font-14); */
   font-size: 18pt;
@@ -4570,7 +4571,9 @@ video {
   /* margin-bottom: var(--margin-bottom-30); */
   font-family: 'Neuton Regular', serif;
   padding:15px;
+  margin-top: var(--margin-top-120);
 }
+
 
 /* .about-block .signature{
   position: relative;

@@ -128,7 +128,7 @@ body{
 	font-family: Neuton Regular !important;
 	color: #fff !important;
 	font-size: 20px !important;
-	font-weight:100 !important
+	font-weight:100 !important;
 }
 
 .main-footer .info-col .info li {
@@ -595,6 +595,7 @@ body{
     font-size: 40px !important;
 	font-family: Neuton Regular !important;
 	line-height: 1rem !important;
+  margin-top: 100px;
 }
 
 .subtitulo5 {
@@ -1891,4 +1892,8 @@ body.visible-sidebar{
 
 .fluid-section.alternate .content-col .link-box{
   padding-top: var(--padding-top-0);
+}
+
+.pattern1 {
+  width: 220px;
 }
