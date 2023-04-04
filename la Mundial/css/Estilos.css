@@ -87,7 +87,7 @@ body{
 
 .testimonio-text {
 	color: #481b0e !important;
-	font-family: Neuton Regular !important;
+	font-family: Neuton !important;
 }
 
 .testimonio-item-img {
@@ -135,7 +135,7 @@ body{
 	font-family: Neuton Light !important;
 	color: #fff !important;
 	font-size: 30px ;
-}
+}theme_color
 
 .main-footer .titulo-mofita {
 	font-family: Mofita !important;
@@ -161,6 +161,12 @@ body{
     max-width: 220px !important;
 }
 
+.title-box h3{
+  position: relative;
+  margin-bottom: 0;
+  font-family: 'Neuton', serif !important;
+  font-size: 30pt;
+}
 
 .story-text-titulo{
 	font-family: Mofita !important;
@@ -177,7 +183,7 @@ body{
 
 
 .platos-text-light{
-	font-family: Neuton Regular !important;
+	font-family: Neuton !important;
 	font-size: 47px;
 	color: #481b0e;
 	line-height: 1em !important
@@ -199,8 +205,8 @@ body{
 }
 
 .subtitulo-inicio {
-	font-family: Neuton Regular !important;
-	font-size: 47px;
+	font-family: Neuton !important;
+	font-size: 43px;
 	color: #fff;
 }
 
@@ -401,7 +407,7 @@ body{
 .menu-section .dish-block .title .ttl a {
     font-size: 47px !important;
 	color: #481b0e !important;
-	font-family: Neuton Regular !important;
+	font-family: Neuton !important;
 	background: none !important;
 }
 
@@ -480,7 +486,7 @@ body{
 .menu-one .menu-col .dish-block .title .ttl a
 {
 	font-size: 32px !important;
-	font-family: Neuton Regular !important;
+	font-family: Neuton !important;
 	color: #481b0e !important;
 	
 }
@@ -535,7 +541,7 @@ body{
 .menu2 .menu-col .dish-block .title .ttl a
 {
 	 font-size: 32px !important;
-	font-family: Neuton Regular !important;
+	font-family: Neuton !important;
 	color: #fff !important;
 	
 }
@@ -564,7 +570,7 @@ body{
 
 .chef-selection .title-box .text{
 	  font-size: 35px !important;
-	font-family: Neuton Regular !important;
+	font-family: Neuton !important;
     color: #fff;
 }
 
@@ -1582,8 +1588,20 @@ body.visible-sidebar{
   /* line-height: 1.85em; */
   line-height: 1.15em;
   /* margin-bottom: var(--margin-bottom-30); */
-  font-family: 'Neuton Regular', serif;
+  font-family: 'Neuton ', serif;
   padding:15px;
+}
+
+.about-block .textabout{
+  position: relative;
+  /* font-size: var(--font-14); */
+  font-size: 18pt;
+  /* line-height: 1.85em; */
+  line-height: 1.15em;
+  /* margin-bottom: var(--margin-bottom-30); */
+  font-family: 'Neuton', serif !important;
+  padding:15px;
+  margin-top: var(--margin-top-120);
 }
 
 /* .about-block .signature{
