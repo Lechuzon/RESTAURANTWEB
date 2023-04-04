@@ -26,10 +26,10 @@
 		font-size: 42px !important;
 	}
 	.menu-one .menu-col .dish-block .title .ttl a {
-		font-size: 25px !important;
+		font-size: 20px !important;
 	}
 	.menu-one .menu-col .dish-block .title .price {
-		font-size: 25px !important;
+		font-size: 20px !important;
 	}
 	.chef-selection .title-box .text {
 		font-size: 30px !important;
@@ -40,6 +40,29 @@
 	.chef-selection .nuevo {
 		font-size: 40px !important;
 	}
+
+	.inner-banner .inner{
+		/* margin-top:100px; */
+	}
+
+	.fluid-section .title-box .text {
+		margin-right:10px;
+		margin-left:10px;
+	}
+
+	.menu-one .menu-col .dish-block .title .price .jarra{
+		max-width: 100%;
+		margin-right: -15px;
+	}
+
+	.menu-one .menu-col .dish-block .title .price .vaso{
+		max-width: 150%;
+		margin-right: -35px;
+	}
+
+
+
+
 }
 
 @media (min-width: 1200px)
@@ -58,6 +81,7 @@
 		padding-top: 200px !important;
 		padding-bottom: 200px !important;
 	}
+	
 	
 
 }
@@ -79,6 +103,12 @@
 	.about-block .textabout {
 		margin-top: -50px;
 	}
+
+	.inner-banner .inner{
+		margin-top:100px
+	}
+
+	
 }
 
 @media only screen and (max-width: 767px) {
@@ -88,6 +118,10 @@
 
 	#imagen4 {
 		max-width: 550px !important;
+	}
+
+	.inner-banner .inner{
+		margin-top:100px
 	}
 
 }
@@ -220,7 +254,15 @@
 	.about-block .textabout {
 		margin-top: 0;
 	}
-}
+
+	.inner-banner .inner{
+		margin-top:100px
+	}
+
+	.fluid-section .title-box .text {
+		margin-right:0px;
+		margin-left:0px;
+	}
 
 @media only screen and (max-width: 479px) {
 	.story-text-titulo {
@@ -412,11 +454,11 @@
 	}
 
 	.menu-one .menu-col .dish-block .title .ttl a {
-		font-size: 17px !important;
+		font-size: 14px !important;
 	}
 
 	.menu-one .menu-col .dish-block .title .price {
-		font-size: 17px !important;
+		font-size: 14px !important;
 	}
 
 	.menu-one .menu-col .dish-block .title .price .jarra{
@@ -443,6 +485,7 @@
 
 	.subtitulo5 {
 		font-size: 45px !important;
+		margin-top:15px;
 	}
 
 	.subtitulo4 {
@@ -454,7 +497,7 @@
 	}
 
 	#imagen4 {
-		max-width: 250px !important;
+		max-width: 300px !important;
 	}
 
 	.sabor {
@@ -470,12 +513,8 @@
 		margin-top: 0;
 	}
 
+
 }
 
 
-/* .banner-section .slide-item h1,
-h1,
-.inner-banner .inner h1{
-	font-size: 54px;
-	margin-top: 140px;
-} */
+}

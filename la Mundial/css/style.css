@@ -1882,7 +1882,7 @@ video {
   position: relative;
   margin-bottom: 0;
   font-family: 'Neuton Regular', serif;
-  font-size: 30pt;
+  font-size: 20pt;
 }
 
 .title-box .text{
@@ -4445,7 +4445,6 @@ video {
   display: block;
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;
   text-align: center;
   z-index: 5;
 }
@@ -4476,6 +4475,8 @@ video {
   position: relative;
   display: inline-block;
   vertical-align: top;
+  font-size: 100px;
+  letter-spacing: 3px;
 }
 
 /*** 
@@ -4699,7 +4700,7 @@ video {
   position: relative;
   /* color: var(--color-one); */
   color: #ffffff;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin-bottom: var(--margin-bottom-25);
   font-family: 'Neuton Regular', serif;
   font-size:18pt;
@@ -4715,6 +4716,7 @@ video {
   /* color: var(--text-color); */
   color: #d39a61;
   margin-bottom: var(--margin-bottom-5);
+  text-transform: uppercase;
 }
 
 .about-section .info-block .info li .address{
@@ -4882,8 +4884,8 @@ video {
 .fluid-section .content-col .inner{
   position: relative;
   display: block;
-  padding-top: var(--padding-top-230);
-  padding-bottom: var(--padding-bottom-230);
+  padding-top: var(--padding-top-100);
+  padding-bottom: var(--padding-bottom-100);
   padding-left: var(--padding-left-20);
   padding-right: var(--padding-right-20);
 }
@@ -5690,6 +5692,7 @@ video {
   color: var(--main-color);
   padding-left: var(--padding-left-15);
   background-color:var(--color-four);
+  margin-right: 30px;
 }
 
 .menu-one .menu-col .dish-block .desc{
@@ -7395,12 +7398,18 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
 .fluid-section .title-box .subtitle{
   color: #481b0e;
   font-size: 23px;
-  font-family: 'Neuton Regular', serif;
-  
+  line-height: 1.2em;
 }
 
 .fluid-section .title-box .text{
   color: #481b0e;
   font-size: 23px;
   font-family: 'Neuton Regular', serif;
+  margin-right: 100px;
+  margin-left: 100px;
+  line-height: 1.2em;
+}
+
+.torrejitas {
+  text-align: left;
 }
