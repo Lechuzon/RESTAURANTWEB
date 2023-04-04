@@ -139,17 +139,18 @@ body{
 
 .main-footer .titulo-mofita {
 	font-family: Mofita !important;
-	font-size: 60px;
+	font-size: 62px;
+	letter-spacing: 0.1em !important;
 }
 
 .main-footer .info-numero{
 	font-family: Neuton Light !important;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .story-section .story-text-light{
 	font-family: Neuton Light !important;
-	font-size: 35px !important;
+	font-size: 32px !important;
 }
 
 .story-section .title-box .pattern-image img {
@@ -164,20 +165,26 @@ body{
 .story-text-titulo{
 	font-family: Mofita !important;
 	font-size: 100px;
+	line-height: 0.9em !important;
 }
 
 .titulo-platos-mofita {
 	font-family: Mofita !important;
 	font-size: 125px;
 	color: #7f1111;
+	padding-bottom: 30px;
 }
 
 
 .platos-text-light{
-	font-family: Neuton Light !important;
-	font-size: 50px;
+	font-family: Neuton Regular !important;
+	font-size: 47px;
 	color: #481b0e;
 	line-height: 1em !important
+}
+
+.offer-block-two h4 a {
+    color: #7f1111 !important;
 }
 
 .title-box.centered .text {
@@ -187,12 +194,12 @@ body{
 .platos-text-light-items{
 	font-family: Neuton Light !important;
 	font-size: 45px;
-	color: #fff;
+	color: #7f1111;
 	line-height: 1em !important;
 }
 
 .subtitulo-inicio {
-	font-family: Neuton Light !important;
+	font-family: Neuton Regular !important;
 	font-size: 47px;
 	color: #fff;
 }
@@ -229,7 +236,8 @@ body{
 
 .btn-wrap{
 	font-family: Neuton Regular !important;
-	font-size: 15px;
+	font-size: 20px;
+	line-height: 1em !important;
 }
 
 .btn-style-one:before {
@@ -320,6 +328,10 @@ body{
 .btn-carga-titulo {
 	width:250px ;
 	padding: 5px 5px !important;
+}
+
+.btn-carga-titulo .text-one{
+	color: #6c2c0d !important;
 }
 
 .menu-section  {
@@ -420,12 +432,23 @@ body{
 .special-offer-two .offer-block-three .price {
     font-size: 44px !important;
 	font-family: Neuton Regular !important;
+	bottom: 0;
+    position: absolute !important;
+    width: 100%;
 }
 
 
 .special-offer-two .offer-block-three h4 a {
     font-size: 47px !important;
 	font-family: Neuton Regular !important;
+}
+
+.special-offer-two  .offer-block-three .inner-box {
+    height: 100%;
+}
+
+.special-offer-two .offer-block-three h4 {
+   padding-bottom: 35px;
 }
 
 .menu-one {
@@ -482,6 +505,10 @@ body{
     max-width: 1700px !important;
 }
 
+
+.menu-one .image-col .image img {
+    border-radius: 15px;
+}
 
 .menu2 .title-box .pattern-image img {
     max-width: 160px !important;
@@ -548,7 +575,7 @@ body{
 }
 
 #imagen4 {
-    max-width: 750px !important;
+    max-width: 710px !important;
 }
 
 .chef-selection .inner-banner {
@@ -662,8 +689,26 @@ body{
 }
 
 
+.offer-block-two .inner-box .image {
+	border-radius: 15px;
+}
 
+.header-top .top-info li {
+    font-size: 20px !important;
+}
 
+.header-top .top-info {
+    font-family: Neuton Regular !important;
+	font-size: 20px !important;
+}
+
+.special-offer .auto-container{
+		max-width: 1700px !important;
+}
+
+.story-section .auto-container{
+		max-width: 1500px !important;
+}
 
 /*** 
 
