@@ -283,7 +283,7 @@
 	}
 
 	.main-header .header-upper .links-box{
-		
+		line-height: 0.5em;
 	}
 
 	.main-header .header-upper .links-box .link{
@@ -409,7 +409,7 @@
 
 	.main-footer .links-col{
 		margin-bottom: 50px;
-	}
+		}
 
 	.main-footer .links-col .inner{
 		padding-top: 0;
@@ -998,7 +998,7 @@
 	.intro-section .fact-counter .count-box,
 	.inner-banner .inner h1,
 	.about-section .fact-counter .fact-count{
-		font-size: 34px;
+		font-size: 80px;
 	}
 
 	.banner-section .slide-item .content-box{
