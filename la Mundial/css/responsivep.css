@@ -1,61 +1,71 @@
-@media only screen and (max-width: 1339px){
-	.special-offer .auto-container{
+@media only screen and (max-width: 1339px) {
+	.special-offer .auto-container {
 		max-width: 1100px !important;
 	}
-	.story-section .auto-container{
+
+	.story-section .auto-container {
 		max-width: 1100px !important;
 	}
-	
+
 	.special-offer-two .auto-container {
 		max-width: 1000px !important;
 	}
+
 	.menu-one .auto-container {
 		max-width: 1200px !important;
 	}
+
 	.chef-selection .auto-container {
 		max-width: 1100px !important;
 	}
-	
+
 	.story-text-titulo {
 		font-size: 80px;
 	}
+
 	.special-offer-two .offer-block-three .price {
 		font-size: 42px !important;
 	}
+
 	.special-offer-two .offer-block-three h4 a {
 		font-size: 42px !important;
 	}
+
 	.menu-one .menu-col .dish-block .title .ttl a {
 		font-size: 20px !important;
 	}
+
 	.menu-one .menu-col .dish-block .title .price {
 		font-size: 20px !important;
 	}
+
 	.chef-selection .title-box .text {
 		font-size: 30px !important;
 	}
+
 	#imagen4 {
 		max-width: 500px !important;
 	}
+
 	.chef-selection .nuevo {
 		font-size: 40px !important;
 	}
 
-	.inner-banner .inner{
+	.inner-banner .inner {
 		/* margin-top:100px; */
 	}
 
 	.fluid-section .title-box .text {
-		margin-right:10px;
-		margin-left:10px;
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 
-	.menu-one .menu-col .dish-block .title .price .jarra{
+	.menu-one .menu-col .dish-block .title .price .jarra {
 		max-width: 100%;
 		margin-right: -15px;
 	}
 
-	.menu-one .menu-col .dish-block .title .price .vaso{
+	.menu-one .menu-col .dish-block .title .price .vaso {
 		max-width: 150%;
 		margin-right: -35px;
 	}
@@ -65,15 +75,14 @@
 
 }
 
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
 	.col-xl-25 {
 		-ms-flex: 0 0 20%;
 		flex: 0 0 20%;
 		max-width: 20%;
 	}
 
-	
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -81,8 +90,8 @@
 		padding-top: 200px !important;
 		padding-bottom: 200px !important;
 	}
-	
-	
+
+
 
 }
 
@@ -97,18 +106,18 @@
 
 	.item-flex {
 		width: 40% !important;
-		
+
 	}
 
 	.about-block .textabout {
 		margin-top: -50px;
 	}
 
-	.inner-banner .inner{
-		margin-top:100px
+	.inner-banner .inner {
+		margin-top: 100px
 	}
 
-	
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -120,19 +129,19 @@
 		max-width: 550px !important;
 	}
 
-	.inner-banner .inner{
-		margin-top:100px
+	.inner-banner .inner {
+		margin-top: 100px
 	}
 
 }
 
 
 
-@media only screen and (max-width: 599px)
-{
+@media only screen and (max-width: 599px) {
 	.story-text-titulo {
 		font-size: 60px;
 	}
+
 	.main-footer .info-col .info li {
 		font-size: 27px;
 	}
@@ -204,12 +213,12 @@
 		font-size: 27px !important;
 	}
 
-	.menu-one .menu-col .dish-block .title .price .jarra{
+	.menu-one .menu-col .dish-block .title .price .jarra {
 		max-width: 100%;
 		margin-right: -15px;
 	}
 
-	.menu-one .menu-col .dish-block .title .price .vaso{
+	.menu-one .menu-col .dish-block .title .price .vaso {
 		max-width: 120%;
 		margin-right: -10px;
 	}
@@ -255,266 +264,285 @@
 		margin-top: 0;
 	}
 
-	.inner-banner .inner{
-		margin-top:100px
+	.inner-banner .inner {
+		margin-top: 100px
 	}
 
 	.fluid-section .title-box .text {
-		margin-right:0px;
-		margin-left:0px;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 
-@media only screen and (max-width: 479px) {
-	.story-text-titulo {
-		font-size: 55px;
-	}
-	.main-footer .info-col .info li {
-		font-size: 25px;
-	}
+	@media only screen and (max-width: 479px) {
+		.story-text-titulo {
+			font-size: 55px;
+		}
 
-	.titulo-platos-mofita {
-		font-size: 95px;
-	}
+		.main-footer .info-col .info li {
+			font-size: 25px;
+		}
 
-	.platos-text-light {
-		font-size: 40px;
-	}
+		.titulo-platos-mofita {
+			font-size: 95px;
+		}
 
-	.platos-text-light-items {
-		font-size: 35px;
-	}
+		.platos-text-light {
+			font-size: 40px;
+		}
 
-	.subtitulo-inicio {
-		font-size: 35px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
+		.platos-text-light-items {
+			font-size: 35px;
+		}
 
-	.story-section .story-text-light {
-		font-size: 23px !important;
-	}
+		.subtitulo-inicio {
+			font-size: 35px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
 
-	.menu-section .titulo2 {
-		font-size: 95px;
-	}
+		.story-section .story-text-light {
+			font-size: 23px !important;
+		}
 
-	.menu-section .subtitle {
-		font-size: 35px !important;
-	}
+		.menu-section .titulo2 {
+			font-size: 95px;
+		}
 
-	.menu-section .dish-block .title .ttl,
-	.menu-section .dish-block .title .ttl a {
-		font-size: 30px !important;
-	}
+		.menu-section .subtitle {
+			font-size: 35px !important;
+		}
 
-	.menu-section .dish-block .title .price {
-		font-size: 30px !important;
-	}
+		.menu-section .dish-block .title .ttl,
+		.menu-section .dish-block .title .ttl a {
+			font-size: 30px !important;
+		}
 
-	.special-offer-two .titulo2 {
-		font-size: 95px !important;
-	}
+		.menu-section .dish-block .title .price {
+			font-size: 30px !important;
+		}
 
-	.special-offer-two .offer-block-three h4 a {
-		font-size: 35px !important;
-	}
+		.special-offer-two .titulo2 {
+			font-size: 95px !important;
+		}
 
-	.special-offer-two .offer-block-three .price {
-		font-size: 35px !important;
-	}
+		.special-offer-two .offer-block-three h4 a {
+			font-size: 35px !important;
+		}
 
-	.menu-one .titulo2 {
-		font-size: 95px !important;
-	}
+		.special-offer-two .offer-block-three .price {
+			font-size: 35px !important;
+		}
 
-	.menu-one .menu-col .dish-block .title .ttl a {
-		font-size: 22px !important;
-	}
+		.menu-one .titulo2 {
+			font-size: 95px !important;
+		}
 
-	.menu-one .menu-col .dish-block .title .price {
-		font-size: 22px !important;;
-	}
+		.menu-one .menu-col .dish-block .title .ttl a {
+			font-size: 22px !important;
+		}
 
-	.menu-one .menu-col .dish-block .title .price .jarra{
-		max-width: 70%;
-		margin-right: -15px;
-	}
+		.menu-one .menu-col .dish-block .title .price {
+			font-size: 22px !important;
+			;
+		}
 
-	.menu-one .menu-col .dish-block .title .price .vaso{
-		max-width: 100%;
-		margin-right: -30px;
-	}
+		.menu-one .menu-col .dish-block .title .price .jarra {
+			max-width: 70%;
+			margin-right: -15px;
+		}
 
-	.menu2 .titulo2 {
-		font-size: 95px !important;
-	}
+		.menu-one .menu-col .dish-block .title .price .vaso {
+			max-width: 100%;
+			margin-right: -30px;
+		}
 
-	.chef-selection .title-box .text {
-		font-size: 25px !important;
-	}
+		.menu2 .titulo2 {
+			font-size: 95px !important;
+		}
 
-	.chef-selection .nuevo {
-		font-size: 32px !important;
-	}
+		.chef-selection .title-box .text {
+			font-size: 25px !important;
+		}
 
-	.subtitulo5 {
-		font-size: 50px !important;
-	}
+		.chef-selection .nuevo {
+			font-size: 32px !important;
+		}
 
-	.subtitulo4 {
-		font-size: 30px !important;
-	}
+		.subtitulo5 {
+			font-size: 50px !important;
+		}
 
-	#imagen3 {
-		max-width: 350px !important;
-	}
+		.subtitulo4 {
+			font-size: 30px !important;
+		}
 
-	#imagen4 {
-		max-width: 350px !important;
-	}
+		#imagen3 {
+			max-width: 350px !important;
+		}
 
-	.sabor {
-		margin-top: 100px;
-	}
+		#imagen4 {
+			max-width: 350px !important;
+		}
 
-	.main-footer .links-col ul li {
-		position: relative;
-		margin-bottom: var(--margin-bottom-5);
-	}
-	
-	.about-block .textabout {
-		margin-top: 0;
-	}
+		.sabor {
+			margin-top: 100px;
+		}
 
-	
-}
+		.main-footer .links-col ul li {
+			position: relative;
+			margin-bottom: var(--margin-bottom-5);
+		}
+
+		.about-block .textabout {
+			margin-top: 0;
+		}
 
 
-@media only screen and (max-width: 399px) {
-	.story-text-titulo {
-		font-size: 50px;
-	}
-	.main-footer .info-col .info li {
-		font-size: 20px;
-	}
-
-	.titulo-platos-mofita {
-		font-size: 80px;
-	}
-
-	.platos-text-light {
-		font-size: 35px;
-	}
-
-	.platos-text-light-items {
-		font-size: 30px;
-	}
-
-	.subtitulo-inicio {
-		font-size: 30px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-
-	.story-section .story-text-light {
-		font-size: 18px !important;
-	}
-
-	.menu-section .titulo2 {
-		font-size: 80px;
-	}
-
-	.menu-section .subtitle {
-		font-size: 30x !important;
-	}
-
-	.menu-section .dish-block .title .ttl,
-	.menu-section .dish-block .title .ttl a {
-		font-size: 25px !important;
-	}
-
-	.menu-section .dish-block .title .price {
-		font-size: 25px !important;
-	}
-
-	.special-offer-two .titulo2 {
-		font-size: 80px !important;
-	}
-
-	.special-offer-two .offer-block-three h4 a {
-		font-size: 30px !important;
-	}
-
-	.special-offer-two .offer-block-three .price {
-		font-size: 30px !important;
-	}
-
-	.menu-one .titulo2 {
-		font-size: 80px !important;
-	}
-
-	.menu-one .menu-col .dish-block .title .ttl a {
-		font-size: 14px !important;
-	}
-
-	.menu-one .menu-col .dish-block .title .price {
-		font-size: 14px !important;
-	}
-
-	.menu-one .menu-col .dish-block .title .price .jarra{
-		max-width: 70%;
-		margin-right: -25px;
-	}
-
-	.menu-one .menu-col .dish-block .title .price .vaso{
-		max-width: 100%;
-		margin-right: -40px;
-	}
-
-	.menu2 .titulo2 {
-		font-size: 80px !important;
-	}
-
-	.chef-selection .title-box .text {
-		font-size: 20px !important;
-	}
-
-	.chef-selection .nuevo {
-		font-size: 27px !important;
-	}
-
-	.subtitulo5 {
-		font-size: 45px !important;
-		margin-top:15px;
-	}
-
-	.subtitulo4 {
-		font-size: 25px !important;
-	}
-
-	#imagen3 {
-		max-width: 250px !important;
-	}
-
-	#imagen4 {
-		max-width: 300px !important;
-	}
-
-	.sabor {
-		margin-top: 100px;
-	}
-
-	.main-footer .links-col ul li {
-		position: relative;
-		margin-bottom: var(--margin-bottom-5);
-	}
-
-	.about-block .textabout {
-		margin-top: 0;
 	}
 
 
-}
+	@media only screen and (max-width: 399px) {
+		.story-text-titulo {
+			font-size: 50px;
+		}
 
+		.main-footer .info-col .info li {
+			font-size: 20px;
+		}
+
+		.titulo-platos-mofita {
+			font-size: 80px;
+		}
+
+		.platos-text-light {
+			font-size: 35px;
+		}
+
+		.platos-text-light-items {
+			font-size: 30px;
+		}
+
+		.subtitulo-inicio {
+			font-size: 30px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		.story-section .story-text-light {
+			font-size: 18px !important;
+		}
+
+		.menu-section .titulo2 {
+			font-size: 80px;
+		}
+
+		.menu-section .subtitle {
+			font-size: 30px !important;
+		}
+
+		.menu-section .dish-block .title .ttl,
+		.menu-section .dish-block .title .ttl a {
+			font-size: 25px !important;
+		}
+
+		.menu-section .dish-block .title .price {
+			font-size: 25px !important;
+		}
+
+		.special-offer-two .titulo2 {
+			font-size: 80px !important;
+		}
+
+		.special-offer-two .offer-block-three h4 a {
+			font-size: 30px !important;
+		}
+
+		.special-offer-two .offer-block-three .price {
+			font-size: 30px !important;
+		}
+
+		.menu-one .titulo2 {
+			font-size: 80px !important;
+		}
+
+		.menu-one .menu-col .dish-block .title .ttl a {
+			font-size: 14px !important;
+		}
+
+		.menu-one .menu-col .dish-block .title .price {
+			font-size: 14px !important;
+		}
+
+		.menu-one .menu-col .dish-block .title .price .jarra {
+			max-width: 70%;
+			margin-right: -25px;
+		}
+
+		.menu-one .menu-col .dish-block .title .price .vaso {
+			max-width: 100%;
+			margin-right: -40px;
+		}
+
+		.menu2 .titulo2 {
+			font-size: 80px !important;
+		}
+
+		.chef-selection .title-box .text {
+			font-size: 20px !important;
+		}
+
+		.chef-selection .nuevo {
+			font-size: 27px !important;
+		}
+
+		.subtitulo5 {
+			font-size: 45px !important;
+			margin-top: 15px;
+		}
+
+		.subtitulo4 {
+			font-size: 25px !important;
+		}
+
+		#imagen3 {
+			max-width: 250px !important;
+		}
+
+		#imagen4 {
+			max-width: 300px !important;
+		}
+
+		.sabor {
+			margin-top: 100px;
+		}
+
+		.main-footer .links-col ul li {
+			position: relative;
+			margin-bottom: var(--margin-bottom-5);
+		}
+
+		.about-block .textabout {
+			margin-top: 0;
+		}
+
+		.inner-banner .inner .subtitle {
+			margin-top: 100px;
+		}
+
+		.auto-container .title-box .subtitle {
+			letter-spacing: 0.2em;
+			font-size: 32px;
+		}
+
+		.title-box .pattern-image img {
+		width:50%;
+		}
+
+		.inner-banner .inner .pattern-image .span {
+			margin-top: 100px;
+		}
+
+
+	}
 
 }

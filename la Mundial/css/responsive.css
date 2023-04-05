@@ -662,7 +662,7 @@
 	h1,
 	.inner-banner .inner h1{
 		font-size: 48px;
-		margin-top: -80px;
+		/* margin-top: -80px; */
 	}
 
 	h2,
@@ -1131,4 +1131,7 @@
 		width:150px;
 	}
 	
+
+
+
 }
