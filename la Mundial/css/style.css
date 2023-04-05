@@ -1853,11 +1853,12 @@ video {
   font-weight: 700;
   /* color: var(--main-color); */
   color: #d39a61;
-  font-size: var(--font-70);
+  font-size: var(--font-50);
   line-height: 1em;
   margin-bottom: var(--margin-bottom-10);
   font-family: 'Neuton Light', serif;
   text-align: center;
+  letter-spacing: 0.1em;
 }
 
 .title-box .pattern-image{

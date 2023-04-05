@@ -103,6 +103,7 @@ body{
     -webkit-transform: translateY(30px) !important;
     -ms-transform: translateY(30px) !important;
     transform: translateY(30px) !important;
+    margin-top: 60px;
 }
 
 
@@ -178,15 +179,15 @@ body{
 	font-family: Mofita !important;
 	font-size: 125px;
 	color: #7f1111;
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
 }
 
 
 .platos-text-light{
 	font-family: Neuton !important;
-	font-size: 47px;
+	font-size: 45px;
 	color: #481b0e;
-	line-height: 1em !important
+	line-height: 1em !important;
 }
 
 .offer-block-two h4 a {
@@ -260,6 +261,7 @@ body{
 .boton-carta {
 	color: #6c2c0d !important;
 	border: 2px solid #d39a61 !important;
+  margin-top: 80px;
 }
 
 .boton-carta .btn-wrap .text-one{
@@ -485,7 +487,7 @@ body{
 
 .menu-one .menu-col .dish-block .title .ttl a
 {
-	font-size: 25px !important;
+	font-size: 23px !important;
 	font-family: Neuton !important;
 	color: #481b0e !important;
 	
@@ -493,7 +495,7 @@ body{
 
 .menu-one .menu-col .dish-block .title .price  {
 	color: #481b0e !important;
-    font-size: 25px !important;
+    font-size: 23px !important;
 	font-family: Neuton Regular !important;
 	   	background: none !important;
 }
