@@ -62,6 +62,12 @@
 	.chef-section .image-col {
 		padding: 0 30px;
 	}
+
+	video {
+		min-width: 100%;
+		min-height: 70vh;
+		z-index: 1;
+	  }
 }
 
 @media only screen and (max-width: 1199px){
@@ -1131,7 +1137,7 @@
 		width:150px;
 	}
 	
-	
+
 
 
 

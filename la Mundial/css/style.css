@@ -1316,7 +1316,7 @@ body.visible-sidebar{
 
 video {
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   z-index: 1;
 }
 
@@ -1867,7 +1867,7 @@ video {
 }
 
 .title-box .pattern-image img{
-  max-width: 100px;
+  max-width: 20% !important;
 }
 
 .title-box.centered .pattern-image{
