@@ -2446,12 +2446,13 @@ video {
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
-  margin-left: var(--margin-left-40);
-  margin-right: var(--margin-right-40);
+  margin-left: 330px;
+  margin-right: 310px;
   font-size: var(--font-20);
   line-height: 25px;
   text-transform: uppercase;
   padding-bottom: var(--padding-bottom-5);
+
 }
 
 .menu-tabs .buttons .tab-buttons .tab-btn:before{
@@ -4456,8 +4457,13 @@ video {
   font-weight: 700;
   color: var(--main-color);
   font-size: var(--font-12);
-  letter-spacing: 0.40em;
+  /* letter-spacing: 0.40em; */
   margin-bottom: var(--margin-bottom-0);
+}
+
+.inner-banner .inner .subtitle span{
+font-family: Neuton-Regular !important;
+letter-spacing: 0.2em !important;
 }
 
 .inner-banner .inner h1{
