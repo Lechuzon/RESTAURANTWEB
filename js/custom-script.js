@@ -65,12 +65,17 @@ if($('.main-header').length){
 		if($('.main-header').length){
 			var windowpos = $(window).scrollTop();
 			var siteHeader = $('.main-header');
+			var logoimg = $('.img-logo');
 			var scrollLink = $('.scroll-to-top');
 			if (windowpos >= 1) {
 				siteHeader.addClass('fixed-header');
+				logoimg.removeClass('logo-dy');
+				logoimg.addClass('logo-nm');
 				scrollLink.fadeIn(300);
 			} else {
 				siteHeader.removeClass('fixed-header');
+				logoimg.removeClass('logo-nm');
+				logoimg.addClass('logo-dy');
 				scrollLink.fadeOut(300);
 			}
 		}
@@ -198,68 +203,68 @@ if($('.main-header').length){
 
 
 	//Dish Gallery Carousel
-	if ($('.dish-gallery-slider').length) {
-		$('.dish-gallery-slider').owlCarousel({
-			loop:true,
-			margin:45,
-			nav:true,
-			smartSpeed: 700,
-			autoplay: true,
-			autoplayTimeout:7000,
-			navText: [ '<span class="icon fa-light fa-angle-left"></span>', '<span class="icon fa-light fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				768:{
-					items:2,
-					margin:30
-				},
-				992:{
-					items:3,
-					margin:30
-				},
-				1200:{
-					items:4
-				}
-			}
-		});    		
-	}
+	// if ($('.dish-gallery-slider').length) {
+		// $('.dish-gallery-slider').owlCarousel({
+			// loop:true,
+			// margin:45,
+			// nav:true,
+			// smartSpeed: 700,
+			// autoplay: true,
+			// autoplayTimeout:7000,
+			// navText: [ '<span class="icon fa-light fa-angle-left"></span>', '<span class="icon fa-light fa-angle-right"></span>' ],
+			// responsive:{
+				// 0:{
+					// items:1
+				// },
+				// 600:{
+					// items:1
+				// },
+				// 768:{
+					// items:2,
+					// margin:30
+				// },
+				// 992:{
+					// items:3,
+					// margin:30
+				// },
+				// 1200:{
+					// items:4
+				// }
+			// }
+		// });    		
+	// }
 
 	//Testimonials Carousel
-	if ($('.testimonial-slider').length) {
-		$('.testimonial-slider').owlCarousel({
-			loop:true,
-			margin:50,
-			nav:true,
-			smartSpeed: 700,
-			autoplay: true,
-			autoplayTimeout:7000,
-			navText: [ '<span class="icon fa-light fa-angle-left"></span>', '<span class="icon fa-light fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				768:{
-					items:2,
-					margin:30
-				},
-				992:{
-					items:2,
-					margin:30
-				},
-				1200:{
-					items:3
-				}
-			}
-		});    		
-	}
+	// if ($('.testimonial-slider').length) {
+		// $('.testimonial-slider').owlCarousel({
+			// loop:true,
+			// margin:50,
+			// nav:true,
+			// smartSpeed: 700,
+			// autoplay: true,
+			// autoplayTimeout:7000,
+			// navText: [ '<span class="icon fa-light fa-angle-left"></span>', '<span class="icon fa-light fa-angle-right"></span>' ],
+			// responsive:{
+				// 0:{
+					// items:1
+				// },
+				// 600:{
+					// items:1
+				// },
+				// 768:{
+					// items:2,
+					// margin:30
+				// },
+				// 992:{
+					// items:2,
+					// margin:30
+				// },
+				// 1200:{
+					// items:3
+				// }
+			// }
+		// });    		
+	// }
 
 	//Gallery Carousel
 	if ($('.image-gallery-slider').length) {
@@ -286,10 +291,10 @@ if($('.main-header').length){
 	}
 
 	// Testimonials Carousel
-	if ($('.testimonials-section .testi-top').length && $('.testimonials-section .testi-thumbs').length) {
-
+	// if ($('.testimonials-section .testi-top').length && $('.testimonials-section .testi-thumbs').length) {
+	   if ($('.testimonials-section .testi-top').length ) {
 		var $sync1 = $(".testimonials-section .testi-top"),
-			$sync2 = $(".testimonials-section .testi-thumbs"),
+			// $sync2 = $(".testimonials-section .testi-thumbs"),
 			flag = false,
 			duration = 500;
 
@@ -303,39 +308,39 @@ if($('.main-header').length){
 					dots: false,
 					autoplay: true,
 					autoplayTimeout: 5000
-				})
-				.on('changed.owl.carousel', function (e) {
-					if (!flag) {
-						flag = false;
-						$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
-						flag = false;
-					}
 				});
+				// .on('changed.owl.carousel', function (e) {
+					// if (!flag) {
+						// flag = false;
+						// // $sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+						// flag = false;
+					// }
+				// });
 
-			$sync2
-				.owlCarousel({
-					loop:true,
-					margin: 0,
-					items: 1,
-					nav: false,
-					navText: [ '<span class="icon far fa-angle-left"></span>', '<span class="icon far fa-angle-right"></span>' ],
-					dots: false,
-					center: false,
-					autoplay: true,
-					centered: true,
-					autoplayTimeout: 5000
-				})
+			// $sync2
+				// .owlCarousel({
+					// loop:true,
+					// margin: 0,
+					// items: 1,
+					// nav: false,
+					// navText: [ '<span class="icon far fa-angle-left"></span>', '<span class="icon far fa-angle-right"></span>' ],
+					// dots: false,
+					// center: false,
+					// autoplay: true,
+					// centered: true,
+					// autoplayTimeout: 5000
+				// })
 				
-		.on('click', '.owl-item', function () {
-			$sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
-		})
-		.on('changed.owl.carousel', function (e) {
-			if (!flag) {
-				flag = true;		
-				$sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
-				flag = false;
-			}
-		});
+		// .on('click', '.owl-item', function () {
+			// $sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+		// })
+		// .on('changed.owl.carousel', function (e) {
+			// if (!flag) {
+				// flag = true;		
+				// $sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				// flag = false;
+			// }
+		// });
 
 	}
 

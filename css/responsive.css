@@ -49,6 +49,8 @@
 	.menu-section .right-bg{
 		display: block;
 	}
+
+	
 }
 
 @media only screen and (max-width: 1339px){
@@ -60,6 +62,12 @@
 	.chef-section .image-col {
 		padding: 0 30px;
 	}
+
+	video {
+		min-width: 100%;
+		min-height: 70vh;
+		z-index: 1;
+	  }
 }
 
 @media only screen and (max-width: 1199px){
@@ -246,7 +254,6 @@
   		padding: 0 100px;
 	}
 
-
 }
 
 @media only screen and (min-width: 768px){
@@ -283,7 +290,7 @@
 	}
 
 	.main-header .header-upper .links-box{
-		
+		line-height: 0.5em;
 	}
 
 	.main-header .header-upper .links-box .link{
@@ -292,6 +299,7 @@
 
 	.main-header .main-box .logo-box .logo img{
 		height: 50px;
+		;
 	}
 
 	.banner-section .slide-item h1,
@@ -407,7 +415,7 @@
 
 	.main-footer .links-col{
 		margin-bottom: 50px;
-	}
+		}
 
 	.main-footer .links-col .inner{
 		padding-top: 0;
@@ -660,6 +668,7 @@
 	h1,
 	.inner-banner .inner h1{
 		font-size: 48px;
+		/* margin-top: -80px; */
 	}
 
 	h2,
@@ -848,6 +857,10 @@
 	    margin-bottom: var(--margin-bottom-20);
 	}	
 
+	.menu-tabs .dish-block .title{
+		text-align: left;
+	}
+
 }
 
 @media only screen and (max-width: 599px){
@@ -996,7 +1009,7 @@
 	.intro-section .fact-counter .count-box,
 	.inner-banner .inner h1,
 	.about-section .fact-counter .fact-count{
-		font-size: 34px;
+		font-size: 80px;
 	}
 
 	.banner-section .slide-item .content-box{
@@ -1124,4 +1137,8 @@
 		width:150px;
 	}
 	
+
+
+
+
 }
