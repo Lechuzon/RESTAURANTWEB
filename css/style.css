@@ -5614,7 +5614,7 @@ letter-spacing: 0.2em !important;
 .menu-one .image-col .image img{
   position: relative;
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .menu-one .menu-col{
@@ -5767,7 +5767,7 @@ letter-spacing: 0.2em !important;
 .offer-block-three .inner-box .image img{
   position: relative;
   display: block;
-  width: 100%;
+  max-width: 100%;
   border-radius: 20px;
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;
@@ -5876,7 +5876,7 @@ letter-spacing: 0.2em !important;
 .chef-selection .image-col .image img{
   position: relative;
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .chef-selection .content-col{

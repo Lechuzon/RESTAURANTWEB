@@ -20,9 +20,6 @@
 	
 	.main-header .header-upper .links-box,
 	.main-menu .navigation > li,
-	.main-header .header-upper .links-box .link{
-		/*margin-left: 30px;*/
-	}
 
 	h2,
 	.featured-section .text-col h2{
@@ -222,6 +219,7 @@
 
 	.menu-one.alternate .menu-col .inner{
 		padding-right: 0;
+		overflow-x: scroll;
 	}
 
 	.featured-section .text-col .inner{

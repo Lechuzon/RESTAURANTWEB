@@ -388,6 +388,7 @@
 
 		.menu-one .menu-col .dish-block .title .ttl a {
 			font-size: 22px !important;
+			overflow-x: scroll;
 		}
 
 		.menu-one .menu-col .dish-block .title .price {
